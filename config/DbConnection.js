@@ -6,7 +6,7 @@ const connectDB = async () => {
     console.log(
       "Database connected:",
       connect.connection.host,
-      connection.connection.name
+      connect.connection.name
     );
   } catch (err) {
     console.log(err);
